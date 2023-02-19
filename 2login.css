@@ -1,0 +1,35 @@
+/* reset css*/
+*{
+    box-sizing: border-box ;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+    
+}
+body{
+    margin: auto;
+    text-align: center;
+}
+
+form{
+    margin: auto;
+    /* border:1px  solid red; */
+  padding: 0px 20px;
+  margin: auto;
+  
+}
+input{
+    padding-right: 30px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding: auto;
+    text-align: justify;
+   
+}
+.des{
+    padding-right: 250px;
+
+}
+button{
+    margin: auto;
+}
