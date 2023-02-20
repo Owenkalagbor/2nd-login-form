@@ -16,19 +16,21 @@ form{
     /* border:1px  solid red; */
   padding: 0px 20px;
   margin: auto;
+  text-align: center;
   
 }
 input{
     padding-right: 30px;
     border-radius: 20px;
     padding-top: 10px;
-    padding: auto;
+    
     text-align: justify;
    
 }
 .des{
-    padding-right: 250px;
-
+    /* padding-right: 250px; */
+/* text-align: center; */
+width: 100%;
 }
 button{
     margin: auto;
