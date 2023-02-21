@@ -10,6 +10,14 @@ margin: auto;
 body{
     background-color: #dfe9f5;
     margin: auto;
+    /* background-image: url(img.jpg); */
+    background-repeat: no-repeat;
+    background-image: url(img2.webp) ;
+    background-size: cover ;
+    
+    
+    
+    
 }
 
 .wrappper{
@@ -25,7 +33,7 @@ body{
 
 h1{
     font-size: 2rem;
-    color: #07001f;
+    color: white;
     margin-bottom: 1.2rem;
     text-align: center;
     margin-top: 10px;
@@ -37,14 +45,16 @@ h1{
 form input{
     /* width: 92%; */
     outline: none;
-border: 1px solid #fff;
+/* border: 1px solid #fff; */
 padding: 12px 20px;
 margin-bottom: 10px;
 border-radius: 20px;
-background: #e4e4e4;
+/* background: #e4e4e4; */
 width: 500px;
 box-shadow: 1px 1px 2px;
 display: block;
+background-image: url(img.jpg);
+border: none;
 }
 
 button{
