@@ -1,0 +1,92 @@
+/* reset css*/
+*{
+        margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif ;
+margin: auto;
+}
+
+body{
+    background-color: #dfe9f5;
+    margin: auto;
+}
+
+.wrappper{
+   
+    /* width: auto; */
+    padding: 2rem 1rem;
+    width:  auto;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    font-size: 2rem;
+    color: #07001f;
+    margin-bottom: 1.2rem;
+    text-align: center;
+    margin-top: 10px;
+   font-family: 'Courier New', Courier, monospace;
+    width: 500px;
+   
+}
+
+form input{
+    /* width: 92%; */
+    outline: none;
+border: 1px solid #fff;
+padding: 12px 20px;
+margin-bottom: 10px;
+border-radius: 20px;
+background: #e4e4e4;
+width: 500px;
+box-shadow: 1px 1px 2px;
+display: block;
+}
+
+button{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    /* width: 90%; */
+    color: #fff;
+    cursor: pointer;
+    background: rgb(17, 107, 143);
+    margin: 10px 440px;
+    width: 500px ;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+button:hover{
+    background: rgba(17, 107, 143, 0.877);
+}
+input:focus{
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.terms{
+    margin-top: 0.2rem;
+    font-size: 0.7rem;
+    display: block;
+    text-align: center;
+}
+.terms input{
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.term label{
+    font-size: 0.7rem;
+}
+.terms a{
+    color: rgb(17, 107, 143);
+    text-decoration: none;
+}
